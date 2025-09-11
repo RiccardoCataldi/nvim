@@ -23,3 +23,12 @@
 | `<leader>rn` | `rename` | Rename symbol across entire project |
 | `<leader>ca` | `code_action` | Show available code actions (fixes, refactors) |
 | `gr` | `references` | Find all references to symbol |
+
+## Completion (nvim-cmp)
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `<C-Space>` | Trigger completion | Open the completion menu in insert mode |
+| `<CR>` | Confirm selection | Accept item; selects first by default |
+| `<C-b>` | Scroll docs up | Scroll documentation window up |
+| `<C-f>` | Scroll docs down | Scroll documentation window down |
+| `<C-e>` | Abort | Close/abort completion menu |
