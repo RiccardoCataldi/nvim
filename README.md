@@ -32,3 +32,23 @@
 | `<C-b>` | Scroll docs up | Scroll documentation window up |
 | `<C-f>` | Scroll docs down | Scroll documentation window down |
 | `<C-e>` | Abort | Close/abort completion menu |
+
+## Git Signs (gitsigns.nvim)
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `]c` | Next hunk | Jump to next change hunk |
+| `[c` | Previous hunk | Jump to previous change hunk |
+| `<leader>hs` | Stage hunk | Stage current hunk |
+| `<leader>hr` | Reset hunk | Reset current hunk |
+| `<leader>hS` | Stage buffer | Stage all changes in buffer |
+| `<leader>hR` | Reset buffer | Reset all changes in buffer |
+| `<leader>hp` | Preview hunk | Open floating preview of current hunk |
+| `<leader>hi` | Preview hunk inline | Show inline preview of current hunk |
+| `<leader>hb` | Blame line (full) | Show full blame for current line |
+| `<leader>hd` | Diff this | Diff current buffer against index |
+| `<leader>hD` | Diff this (~) | Diff buffer against previous commit |
+| `<leader>hQ` | Populate quickfix (all) | Send all hunks to quickfix list |
+| `<leader>hq` | Populate quickfix | Send file hunks to quickfix list |
+| `<leader>tb` | Toggle blame | Toggle current line blame |
+| `<leader>tw` | Toggle word diff | Toggle word diff view |
+| `ih` (text object) | Select hunk | Use in operator-pending/visual mode |
