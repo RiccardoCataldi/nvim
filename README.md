@@ -3,10 +3,9 @@
 ## Leader Key
 - **Leader**: `Space`
 
-## General Commands
+## Navigation
 | Shortcut | Command | Description |
 |----------|---------|-------------|
-| `gd` | `go_to_definition` | Go to symbol definition |
 | `Ctrl-o` | `go_back` | Navigate back to previous location |
 
 ## Telescope (File Navigation)
