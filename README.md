@@ -4,8 +4,10 @@
 - **Leader**: `Space`
 
 ## General Commands
-| `gd` | `go_to_definition` |
-| `Ctrl-o` | `go_back` |
+| Shortcut | Command | Description |
+|----------|---------|-------------|
+| `gd` | `go_to_definition` | Go to symbol definition |
+| `Ctrl-o` | `go_back` | Navigate back to previous location |
 
 ## Telescope (File Navigation)
 | Shortcut | Command | Description |
