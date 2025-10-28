@@ -29,6 +29,14 @@
 | `<leader>ca` | `code_action` | Show available code actions (fixes, refactors) |
 | `gr` | `references` | Find all references to symbol |
 
+## Diagnostics (Errors & Warnings)
+| Shortcut | Command | Description |
+|----------|---------|-------------|
+| `<leader>e` | `open_float` | Open diagnostic in floating window |
+| `[d` | `goto_prev` | Jump to previous diagnostic |
+| `]d` | `goto_next` | Jump to next diagnostic |
+| `<leader>q` | `setloclist` | Open diagnostic list (quickfix) |
+
 ## Completion (nvim-cmp)
 | Shortcut | Action | Description |
 |----------|--------|-------------|
