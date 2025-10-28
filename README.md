@@ -8,6 +8,13 @@
 |----------|---------|-------------|
 | `Ctrl-o` | `go_back` | Navigate back to previous location |
 
+## Text Editing
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `diw` | Delete inner word | Delete the word under cursor (doesn't include whitespace) |
+| `ciw` | Change inner word | Delete word and enter insert mode |
+| `dw` | Delete word | Delete word including trailing whitespace |
+
 ## Telescope (File Navigation)
 | Shortcut | Command | Description |
 |----------|---------|-------------|
