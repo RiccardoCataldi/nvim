@@ -15,6 +15,12 @@
 | `ciw` | Change inner word | Delete word and enter insert mode |
 | `dw` | Delete word | Delete word including trailing whitespace |
 
+## Search & Replace
+| Shortcut | Command | Description |
+|----------|---------|-------------|
+| `:%s/old/new/g` | Substitute all | Replace all occurrences of "old" with "new" in entire file |
+| `:%s/old/new/gc` | Substitute with confirm | Replace all with confirmation prompt for each match |
+
 ## Telescope (File Navigation)
 | Shortcut | Command | Description |
 |----------|---------|-------------|
