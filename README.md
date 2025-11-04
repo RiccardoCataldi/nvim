@@ -17,6 +17,13 @@
 | `ciw` | Change inner word | Delete word and enter insert mode |
 | `dw` | Delete word | Delete word including trailing whitespace |
 
+## Commenting
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `gcc` | Toggle comment | Comment/uncomment current line |
+| `V` then `gc` | Comment selection | In visual mode, select lines with `V` (Shift-v), then press `gc` to comment/uncomment |
+| `Ctrl-v` then `gc` | Comment block | In visual block mode (`Ctrl-v`), select columns, then press `gc` to comment/uncomment |
+
 ## Search & Replace
 | Shortcut | Command | Description |
 |----------|---------|-------------|
