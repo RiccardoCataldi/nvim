@@ -14,7 +14,8 @@
 | Shortcut | Action | Description |
 |----------|--------|-------------|
 | `yiw` | Yank inner word | Copy the word under cursor (doesn't include whitespace) |
-| `yw` | Yank word | Copy word including trailing whitespace |
+| `yw` | Yank word | Copy word including trailing whitespace (stops at punctuation like dots) |
+| `yW` | Yank WORD | Copy WORD including punctuation (useful for `self.scaled_pattern.outer_margin()`) |
 | `p` | Paste after | Paste after cursor position |
 | `P` | Paste before | Paste before cursor position |
 | `diw` | Delete inner word | Delete the word under cursor (doesn't include whitespace) |
