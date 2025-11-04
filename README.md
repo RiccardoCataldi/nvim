@@ -7,6 +7,8 @@
 | Shortcut | Command | Description |
 |----------|---------|-------------|
 | `Ctrl-o` | `go_back` | Navigate back to previous location |
+| `:set number` | Show line numbers | Display line numbers on the left side of the buffer |
+| `<line number> G` | Jump to line | Jump to specific line number (e.g., `42G` jumps to line 42) |
 
 ## Text Editing
 | Shortcut | Action | Description |
