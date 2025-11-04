@@ -13,6 +13,10 @@
 ## Text Editing
 | Shortcut | Action | Description |
 |----------|--------|-------------|
+| `yiw` | Yank inner word | Copy the word under cursor (doesn't include whitespace) |
+| `yw` | Yank word | Copy word including trailing whitespace |
+| `p` | Paste after | Paste after cursor position |
+| `P` | Paste before | Paste before cursor position |
 | `diw` | Delete inner word | Delete the word under cursor (doesn't include whitespace) |
 | `ciw` | Change inner word | Delete word and enter insert mode |
 | `dw` | Delete word | Delete word including trailing whitespace |
