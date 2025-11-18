@@ -13,6 +13,7 @@
 ## Text Editing
 | Shortcut | Action | Description |
 |----------|--------|-------------|
+| `ggyG` or `:%y` | Yank entire file | Copy the entire file |
 | `yy` | Yank line | Copy the entire line |
 | `yiw` | Yank inner word | Copy the word under cursor (doesn't include whitespace) |
 | `yw` | Yank word | Copy word including trailing whitespace (stops at punctuation like dots) |
