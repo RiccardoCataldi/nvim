@@ -6,20 +6,29 @@
 ## Navigation
 | Shortcut | Command | Description |
 |----------|---------|-------------|
+| `gg` | Go to start | Jump to the first line of the file |
+| `G` | Go to end | Jump to the last line of the file |
+| `<line number> G` | Jump to line | Jump to specific line number (e.g., `42G` jumps to line 42) |
 | `Ctrl-o` | `go_back` | Navigate back to previous location |
 | `:set number` | Show line numbers | Display line numbers on the left side of the buffer |
-| `<line number> G` | Jump to line | Jump to specific line number (e.g., `42G` jumps to line 42) |
 
 ## Text Editing
 | Shortcut | Action | Description |
 |----------|--------|-------------|
-| `ggyG` or `:%y` | Yank entire file | Copy the entire file |
-| `yy` | Yank line | Copy the entire line |
+| `ggyG` or `:%y` | Yank entire file | Copy the entire file (automatically synced to system clipboard) |
+| `yy` | Yank line | Copy the entire line (automatically synced to system clipboard) |
 | `yiw` | Yank inner word | Copy the word under cursor (doesn't include whitespace) |
 | `yw` | Yank word | Copy word including trailing whitespace (stops at punctuation like dots) |
+<<<<<<< Updated upstream
 | `yW` | Yank WORD | Copy WORD including punctuation (useful for `self.led_part.outer()`) |
+=======
+| `yW` | Yank WORD | Copy WORD including punctuation (useful for `self.scaled_pattern.outer_margin()`) |
+| `"+yy` | Yank line to clipboard | Explicitly copy line to system clipboard (use `"+` register) |
+| `"+ggyG` or `"+%y` | Yank file to clipboard | Explicitly copy entire file to system clipboard |
+>>>>>>> Stashed changes
 | `p` | Paste after | Paste after cursor position |
 | `P` | Paste before | Paste before cursor position |
+| `"+p` | Paste from clipboard | Paste from system clipboard (use `"+` register) |
 | `diw` | Delete inner word | Delete the word under cursor (doesn't include whitespace) |
 | `ciw` | Change inner word | Delete word and enter insert mode |
 | `dw` | Delete word | Delete word including trailing whitespace |
