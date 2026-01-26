@@ -42,6 +42,11 @@
 | `:%s/old/new/g` | Substitute all | Replace all occurrences of "old" with "new" in entire file |
 | `:%s/old/new/gc` | Substitute with confirm | Replace all with confirmation prompt for each match |
 
+### Search Workflow: Copy word to search
+1. Copy the word: `yw` (yank word) or `yiw` (yank inner word)
+2. Open search: `/`
+3. Paste: `Ctrl+r` followed by `"` (paste from default register)
+
 ## Telescope (File Navigation)
 | Shortcut | Command | Description |
 |----------|---------|-------------|
