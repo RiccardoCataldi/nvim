@@ -1,6 +1,6 @@
 # Neovim Keybindings
 
-> 📚 **See also**: [Tmux Basic Commands](tmux.md)
+[Tmux Basic Commands](tmux.md)
 
 ## Leader Key
 - **Leader**: `Space`
