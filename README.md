@@ -20,6 +20,7 @@
 |----------|--------|-------------|
 | `ggyG` or `:%y` | Yank entire file | Copy the entire file (automatically synced to system clipboard) |
 | `yy` | Yank line | Copy the entire line (automatically synced to system clipboard) |
+| `dd` | Cut line | Delete entire line (saved to register, paste with `p`) |
 | `yiw` | Yank inner word | Copy the word under cursor (doesn't include whitespace) |
 | `yw` | Yank word | Copy word including trailing whitespace (stops at punctuation like dots) |
 | `yW` | Yank WORD | Copy WORD including punctuation (useful for `self.scaled_pattern.outer_margin()`) |
