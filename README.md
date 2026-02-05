@@ -1,5 +1,7 @@
 # Neovim Keybindings
 
+> 📚 **See also**: [Tmux Basic Commands](tmux.md)
+
 ## Leader Key
 - **Leader**: `Space`
 
@@ -9,6 +11,7 @@
 | `gg` | Go to start | Jump to the first line of the file |
 | `G` | Go to end | Jump to the last line of the file |
 | `<line number> G` | Jump to line | Jump to specific line number (e.g., `42G` jumps to line 42) |
+| `?` | Go to end of line | Move cursor to end of current line (replaces backward search) |
 | `Ctrl-o` | `go_back` | Navigate back to previous location |
 | `:set number` | Show line numbers | Display line numbers on the left side of the buffer |
 
